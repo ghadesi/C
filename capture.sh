@@ -1,5 +1,4 @@
 #!/bin/sh
-# This script takes a photo if the computer has not been idle for longer than a period of time
 # it uses isightcapture from https://www.macupdate.com/app/mac/18598/isightcapture
  
 [ -z "$USER" ] && echo "missing variable \$USER " && exit 1
